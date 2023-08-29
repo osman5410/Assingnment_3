@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#container{
+    max-width:85%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    position: static;
+}
+.navigation li{
+    display: inline-block;
+    padding: 0 10px;
+    font-family: 'Mulish', sans-serif;                                                                                             
+}
+.logo>h2{
+    color: #ffff;
+    font-family: 'ADLaM Display', cursive;
+    font-size: 35px;
+}   
+.logo>h2::first-letter{
+    font-size: 35px;
+    font-weight: 900px;
+    color: #FF9900;
+}
+.navigation li a{
+   color: rgb(228, 228, 228);
+   font-size: 18px;
+} 
+.navigation li a:hover{
+    color:#ffffff;
+    text-shadow: 1px 1px 8px gray;
+}
+.navigation li:nth-child(6){
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px 15px;
+} 
+.navigation li i{
+    padding: 0 3px;
+} 
+
+.ii-2 i{
+    font-size: 25px;
+    font-weight: bold;
+}
+  /* navigation end */
+
+ /* heading start */
+ .g{
+    position: relative;
+    display: flex;
+ }
+ header{
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    
+ }
+header>h3{
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+header>h1{
+    color: #ffff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 62px;
+}
+header>a{
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 18px 35px;
+    width: fit-content;
+    backdrop-filter: blur(3px) saturate(70%);
+    transition: 0.50s;
+}
+header>a:hover{
+    background-color: #fff;
+    color: black ;
+}
+.background-img{
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.281)), url(pexels-keira-burton-6146978.jpg);
+    background-size: cover;
+    position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.form{
+    right: 0;
+    top: 280px;
+    position: absolute;
+    background-color: #ffffff;
+    height: 380px;
+    width: 380px;
+    text-align: center;
+    align-items: center;
+    padding: 50px 45px;
+    border-radius: 6px;
+    z-index: 1;
+    box-shadow: 2px 2px 5px #9b9b9b;
+}
+.form>form>input{
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(189, 188, 188);
+    margin-top: 12px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(241, 240, 240);
+}
+.form>form>input:focus{
+    outline: 1px solid #FF9900;
+    border: none;
+}
+.apply{
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    background-color:#FF9900;
+    color:black;
+    transition: 0.5S;
+    
+}
+.apply:hover{
+    color: white;
+    background-color: #ff2600;
+}
+.form-title{
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+.form-caption{
+    font-size:20px;
+    color: gray;
+    font-family: 'Mulish', sans-serif; 
+    margin-bottom: 15px;
+}
+.content>div{
+    margin-top: 150px;
+    padding: 0px 30px;
+}
+.content{
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+}
+.content>div>h2>a{
+    font-weight:550;
+    color: #444444;
+}
+.content>div>h2{
+    margin-bottom: 25px;
+}
+.content>div>p{
+    color: #6d6d6d;
+}
+.content i{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #011B2D;
+}
+.footer>i{
+    font-size: 15px;
+    padding: 2px;
+}
+.footer>p{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    color: #8B8E91;
+}
+.footer>h3{
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    padding: 4px;
+    color:#bebebe;
+}
